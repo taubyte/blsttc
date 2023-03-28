@@ -1,4 +1,5 @@
 # blsttc
+BLSTTC is a WASM bridge between the the Lit Protocol implementation of BLSTTC and the Taubyte VM.
 
 ## Building WASM 
 
