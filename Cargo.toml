@@ -1,0 +1,15 @@
+[package]
+name = "blsttc"
+version = "0.1.0"
+description = "blsttc encrypt and decrypt layer to interact with taubyte sdk"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+crate-name = "taubyte-blsttc"
+
+[dependencies]
+taubyte-sdk = "0.1.6"
+blsttc = { git = "https://github.com/LIT-Protocol/blsttc" }
+rand = "0.7.3"
+bincode = "1.3.1"
